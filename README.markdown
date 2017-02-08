@@ -12,6 +12,7 @@ Get the code via git:
 
 Supported versiom:
 
+	.NET core (standard 1.6)
 	.NET framework 3.5 SP1,
 	.NET framework 4.0,
 	Silverlight 3.0,
