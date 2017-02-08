@@ -1,0 +1,46 @@
+﻿{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "NETStandard.Library": "1.6.0"
+  },
+    "buildOptions": {
+        "embed": [
+            "Resources/Address.de-DE.resx",
+            "Resources/Address.resx",
+            "Resources/Company.de-DE.resx",
+            "Resources/Company.resx",
+            "Resources/Internet.de-DE.resx",
+            "Resources/Internet.resx",
+            "Resources/Lorem.de-DE.resx",
+            "Resources/Lorem.resx",
+            "Resources/Name.de-DE.resx",
+            "Resources/Name.resx",
+            "Resources/Phone.de-DE.resx",
+            "Resources/Phone.resx"
+        ],
+        "compile": {
+            "includeFiles": [
+                "../Faker/Address.cs",
+                "../Faker/Company.cs",
+                "../Faker/Config.cs",
+                "../Faker/DateOfBirth.cs",
+                "../Faker/ISOCountryCode.cs",
+                "../Faker/Identification.cs",
+                "../Faker/Internet.cs",
+                "../Faker/Lorem.cs",
+                "../Faker/Name.cs",
+                "../Faker/Phone.cs",
+                "../Faker/RandomNumber.cs",
+                "../Faker/Extensions/ArrayExtensions.cs",
+                "../Faker/Extensions/EnumerableExtensions.cs",
+                "../Faker/Extensions/StringExtensions.cs"
+            ]
+        }
+    },
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  }
+}
